@@ -86,7 +86,7 @@ const Header = () => {
       <div
         className={`lg:hidden ${
           isMobileMenuOpen ? "block" : "hidden"
-        } bg-gray-800 p-4 absolute top-16 left-0 w-full`}
+        } p-4 absolute top-16 left-0 w-full`}
       >
         <ul className="space-y-4 text-white">
           <li>
