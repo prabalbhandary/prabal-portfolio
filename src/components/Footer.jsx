@@ -1,7 +1,12 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/");
+  }
   return (
     <footer className="text-white py-8">
       <div className="container mx-auto px-6">
@@ -10,16 +15,16 @@ const Footer = () => {
             <h1 className="text-2xl font-semibold">
               Let's work together today!
             </h1>
-            <button className="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 flex items-center">
+            <button onClick={handleClick} className="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 flex items-center">
               Start Project
-              <span className="ml-2 material-symbols-rounded">
-              <FaAngleRight />
+              <span className="ml-2">
+                <FaAngleRight />
               </span>
             </button>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center sm:items-start">
             <p className="text-xl font-medium mb-4">Sitemap</p>
-            <ul className="space-y-2 text-center">
+            <ul className="space-y-2 text-center sm:text-left">
               <li>
                 <a href="/" className="text-white hover:text-gray-400">
                   Home
@@ -47,7 +52,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col justify-center items-end">
+          <div className="flex flex-col justify-center items-center sm:items-end">
             <p className="text-xl font-medium mb-4">Social</p>
             <ul className="space-y-2 text-center sm:text-right">
               <li>
