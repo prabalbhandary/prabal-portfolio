@@ -56,27 +56,27 @@ const Footer = () => {
             <p className="text-xl font-medium mb-4">Social</p>
             <ul className="space-y-2 text-center sm:text-right">
               <li>
-                <a href="" className="text-white hover:text-gray-400">
+                <a href="https://github.com/prabalbhandary" target="_blank" className="text-white hover:text-gray-400">
                   Github
                 </a>
               </li>
               <li>
-                <a href="" className="text-white hover:text-gray-400">
+                <a href="https://www.linkedin.com/in/prabal-bhandary-421811279/" target="_blank" className="text-white hover:text-gray-400">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="" className="text-white hover:text-gray-400">
+                <a href="https://x.com/PrabalBhan71704" target="_blank" className="text-white hover:text-gray-400">
                   Twitter X
                 </a>
               </li>
               <li>
-                <a href="" className="text-white hover:text-gray-400">
+                <a href="https://www.instagram.com/prabalb44/" target="_blank" className="text-white hover:text-gray-400">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="" className="text-white hover:text-gray-400">
+                <a href="https://www.facebook.com/prabal.bhandary.5" target="_blank" className="text-white hover:text-gray-400">
                   Facebook
                 </a>
               </li>
