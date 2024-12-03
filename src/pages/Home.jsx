@@ -22,7 +22,7 @@ const Home = () => {
           <img
             src="/images/me.png"
             alt="Avatar"
-            className="w-14 h-14 rounded-full mr-4 shadow-lg bg-gradient-to-t from-blue-600 via-transparent to-transparent"
+            className="w-14 h-14 rounded-full mr-4 shadow-lg bg-gradient-to-t from-gray-600 via-transparent to-transparent"
           />
           <span className="bg-green-500 w-3 h-3 rounded-full mr-4"></span>
           <p className="text-sm font-semibold text-white">Available for work</p>
@@ -85,7 +85,7 @@ const Home = () => {
             alt="Hero Banner"
             className="w-3/5 md:w-2/5 h-auto mx-auto rounded-lg shadow-lg"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-blue-600 via-transparent to-transparent opacity-50"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-600 via-transparent to-transparent opacity-50"></div>
         </div>
       </motion.div>
     </section>

@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <section id="work" className="py-16">
       <h1 className="text-4xl font-bold text-center text-white mb-12">My Portfolio Highlights</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
         {projects.map((project) => (
           <motion.div
             key={project.id}
@@ -20,6 +20,7 @@ const Work = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: 'easeOut', delay: project.id * 0.1 }}
+            whileHover={{ translateY: -10 }}
           >
             <img src={project.image} alt={project.title} className="w-full h-56 object-cover" />
             <div className="p-4">
