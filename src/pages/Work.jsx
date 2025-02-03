@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const projects = [
   { id: 1, title: 'Mak Movies Frontend', image: '/images/project-1.png', description: 'This is a movie app frontend build with Next JS.', link: 'https://movie-frontend-gray-phi.vercel.app/' },
-  { id: 2, title: 'Mak Movies Backend', image: '/images/project-2.png', description: 'This is a movie app backend build with Next JS.', link: 'https://movie-backend-theta.vercel.app/' },
+  { id: 2, title: 'Mak Movies Backend', image: '/images/project-2.png', description: 'This is a movie app backend build with Next JS.', link: 'https://movie-frontend-gray-phi.vercel.app/' },
   { id: 3, title: 'Chat App', image: '/images/project-3.png', description: 'This is a chat app build with MERN stack.', link: 'https://chat-me-9912.onrender.com/' },
   { id: 4, title: 'Book Store App', image: '/images/project-4.png', description: 'This is a book store app build with MERN stack.', link: 'https://bookstore-client-two.vercel.app/' },
 ];
