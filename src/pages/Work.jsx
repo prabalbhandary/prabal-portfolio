@@ -27,14 +27,25 @@ const Work = () => {
             <div className="p-4">
               <h2 className="text-xl font-semibold text-white">{project.title}</h2>
               <p className="text-white mt-2">{project.description}</p>
-              <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  View Project
-                </a>
-                <a href={project.link2} target="_blank" rel="noopener noreferrer">
-                  Buy Source Code
-                </a>
-              </button>
+              <button className="mt-4 flex space-x-4">
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600"
+  >
+    View Project
+  </a>
+  <a
+    href={project.link2}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600"
+  >
+    Buy Source Code
+  </a>
+</button>
+
             </div>
           </motion.div>
         ))}
