@@ -6,6 +6,7 @@ const projects = [
   { id: 2, title: 'Mak Movies Backend', image: '/images/project-2.png', description: 'This is a movie app backend build with Next JS.', link: 'https://movie-frontend-gray-phi.vercel.app/' },
   { id: 3, title: 'Chat App', image: '/images/project-3.png', description: 'This is a chat app build with MERN stack.', link: 'https://chat-me-9912.onrender.com/' },
   { id: 4, title: 'Book Store App', image: '/images/project-4.png', description: 'This is a book store app build with MERN stack.', link: 'https://bookstore-client-two.vercel.app/' },
+  { id: 5, title: 'Emplotee Management System', image: '/images/project-5.png', description: 'This is an Employee Management Syste App build with MERN stack.', link: 'https://employee-management-system-8n86.onrender.com/' }
 ];
 
 const Work = () => {
