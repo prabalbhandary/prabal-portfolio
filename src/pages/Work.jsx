@@ -27,7 +27,7 @@ const Work = () => {
             <div className="p-4">
               <h2 className="text-xl font-semibold text-white">{project.title}</h2>
               <p className="text-white mt-2">{project.description}</p>
-              <button className="mt-4 flex space-x-4">
+              <button className="mt-4 flex space-x-8">
   <a
     href={project.link}
     target="_blank"
