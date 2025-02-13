@@ -63,7 +63,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
           {[
-            { src: 'images/html.svg', title: 'HTML', description: 'For giving structure' },
+            { src: 'images/html.svg', title: 'HTML 5', description: 'For giving structure' },
             { src: '/images/css3.svg', title: 'CSS 3', description: 'For styling' },
             { src: '/images/javascript.svg', title: 'JavaScript', description: 'For interactivity' },
             { src: '/images/react.svg', title: 'React', description: 'For building user interfaces' },
