@@ -7,7 +7,8 @@ const projects = [
   { id: 3, title: 'Chat App', image: '/images/project-3.png', description: 'This is a chat app build with MERN stack.', link: 'https://chat-me-9912.onrender.com/', link2: '#' },
   { id: 4, title: 'Book Store App', image: '/images/project-4.png', description: 'This is a book store app build with MERN stack.', link: 'https://bookstore-client-two.vercel.app/', link2: '#' },
   { id: 5, title: 'Employee Management System', image: '/images/project-5.png', description: 'This is an Employee Management Syste App build with MERN stack.', link: 'https://employee-management-system-8n86.onrender.com/', link2: '#' },
-  { id: 6, title: 'Institute Management System', image: '/images/project-6.png', description: 'This is an Institute Management Syste App build with MERN stack.', link: 'https://institute-management-system.onrender.com/', link2: '#' }
+  { id: 6, title: 'Institute Management System', image: '/images/project-6.png', description: 'This is an Institute Management System App build with MERN stack.', link: 'https://institute-management-system.onrender.com/', link2: '#' },
+  { id: 7, title: 'JobPortal', image: '/images/project-7.png', description: 'This is a Job Portal build with MERN stack.', link: 'https://job-portal-v94q.onrender.com/', link2: '#' },
 ];
 
 const Work = () => {
