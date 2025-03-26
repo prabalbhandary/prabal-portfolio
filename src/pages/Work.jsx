@@ -10,7 +10,7 @@ const projects = [
   { id: 6, title: 'Institute Management System', image: '/images/project-6.png', description: 'This is an Institute Management System App build with MERN stack.', link: 'https://institute-management-system.onrender.com/', link2: '#' },
   { id: 7, title: 'JobPortal', image: '/images/project-7.png', description: 'This is a Job Portal build with MERN stack.', link: 'https://job-portal-v94q.onrender.com/', link2: '#' },
   { id: 8, title: 'Spotify', image: '/images/project-8.png', description: 'This is a Music Player build with MERN stack.', link: 'https://spotify2-ea47.onrender.com/', link2: '#' },
-  { id: 9, title: 'Trauma Registry', image: '/images/project-9.png', description: 'This is a Trauma Registry build with React for fontEnd & Laravel for Backend.', link: 'https://registry-service.netlify.app/', link2: '#' },
+  { id: 9, title: 'Trauma Registry', image: '/images/project-9.png', description: 'This is a Trauma Registry build with React for Frontend & Laravel for Backend.', link: 'https://registry-service.netlify.app/', link2: '#' },
 ];
 
 const Work = () => {
