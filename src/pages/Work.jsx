@@ -12,6 +12,7 @@ const projects = [
   { id: 8, title: 'Spotify', image: '/images/project-8.png', description: 'This is a Music Player build with MERN stack.', link: 'https://spotify2-ea47.onrender.com/', link2: '#' },
   { id: 9, title: 'Trauma Registry', image: '/images/project-9.png', description: 'This is a Trauma Registry build with React for Frontend & Laravel for Backend.', link: 'https://registry-service.netlify.app/', link2: '#' },
   { id: 10, title: 'Virtual Assistant', image: '/images/project-10.png', description: 'This is a Virtual Assistant build with MERN stack.', link: 'https://virtual-assistant-hjkq.onrender.com/', link2: '#' },
+  { id: 11, title: 'Ecommerce', image: '/images/project-10.png', description: 'This is a Ecommerce build with MERN stack.', link: 'https://shoppify-frontend.vercel.app/', link2: '#' },
 ];
 
 const Work = () => {
