@@ -13,6 +13,7 @@ const projects = [
   { id: 9, title: 'Trauma Registry', image: '/images/project-9.png', description: 'This is a Trauma Registry build with React for Frontend & Laravel for Backend.', link: 'https://registry-service.netlify.app/', link2: '#' },
   { id: 10, title: 'Virtual Assistant', image: '/images/project-10.png', description: 'This is a Virtual Assistant build with MERN stack.', link: 'https://virtual-assistant-hjkq.onrender.com/', link2: '#' },
   { id: 11, title: 'Ecommerce', image: '/images/project-11.png', description: 'This is a Ecommerce build with MERN stack.', link: 'https://shoppify-frontend.vercel.app/', link2: '#' },
+  { id: 12, title: 'Estore', image: '/images/project-12.png', description: 'This is a Ecommerce(Estore) build with MERN stack. NextJS', link: 'https://estore-ejda.vercel.app/', link2: '#' },
 ];
 
 const Work = () => {
